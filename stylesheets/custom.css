@@ -98,3 +98,14 @@ main #more {
   color: blue;
   border-bottom: 1px solid blue;
   font-size: .9rem; }
+
+/* Responsive
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (max-width: 800px) 
+{
+  :root { font-size: 16px }
+
+  body { margin: 0 3%; }
+
+  .links { flex-direction: column; }
+}
