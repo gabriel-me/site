@@ -1,7 +1,7 @@
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 /* Reset
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -10,7 +10,7 @@
   padding: 0;
   color: #000000;
   font-size: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   box-sizing: border-box;
   word-wrap: break-word;
@@ -65,7 +65,7 @@ p {
 .icon-container span {
   margin-left: .5rem;
   font-size: 1.2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   opacity: 1; }
 
 .icon-container:hover { background-color: #F2F2F2; }
