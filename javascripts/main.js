@@ -5,7 +5,7 @@ const queryAPI = async URL => {
   if (response.status === 200) {
     data = await response.text();
     data = JSON.parse(data);
-    return data
+    return data;
   }
 
   return response;
@@ -17,9 +17,9 @@ const getGitHubRepositories = async username => {
   return repositories;
 }
 
-const renderRepositories = async () => {
+const renderGitHubRepositories = async username => {
   const $containerRepositories = document.getElementById('repositories');
-  const repositories = await getGitHubRepositories('gabriel-me');
+  const repositories = await getGitHubRepositories(username);
   let contentHTML = '';
 
   repositories.map(repository => {
@@ -35,4 +35,4 @@ const renderRepositories = async () => {
   $containerRepositories.innerHTML = contentHTML;
 }
 
-renderRepositories();
+renderGitHubRepositories('gabriel-me');
