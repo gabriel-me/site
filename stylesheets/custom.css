@@ -30,7 +30,6 @@ section,
 footer { text-align: center; }
 
 p { 
-  text-align: justify;
   margin-top: .5rem;
   line-height: 30px;
   font-family: 'Merriweather', serif; }
@@ -91,7 +90,6 @@ main section h2 { opacity: .7; }
 main section p {
   font-size: .8rem;
   opacity: .8;
-  text-align: center;
   margin: 1.5rem 0; }
 
 main #more {
