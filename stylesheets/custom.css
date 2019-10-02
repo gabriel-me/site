@@ -23,7 +23,10 @@
 h1 { font-size: 2rem; }
 h2 { font-size: 1.3rem; }
 
-body { margin: 0 25%; }
+body {
+  margin: 0 25%;
+  -webkit-font-smoothing: antialiased !important;
+}
 
 main, 
 section, 
