@@ -1,0 +1,28 @@
+.profile-photo {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  margin-right: 8px; }
+
+.menu {
+  min-height: 100vh;
+  width: 14rem;
+  background-color: #111111; }
+
+.menu header {
+  padding: 1rem 0 2rem 0; }
+
+.menu > header > div {
+  display: flex;
+  align-items: center;
+  padding: 0 .5rem; }
+
+.menu > header > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: .5rem; } 
+
+.menu > header h1,
+.menu > header ul li {
+  color: #FFFFFF; }

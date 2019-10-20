@@ -1,0 +1,13 @@
+.list:first-child {
+  border-top: 1px solid #222222; }
+
+.list > li {
+  display: flex;
+  align-items: center;
+  padding: .8rem .5rem;
+  border-bottom: 1px solid #222222; 
+  color: #FFFFFF;
+  cursor: pointer; }
+
+.list > li:hover {
+  background-color: #151515; }

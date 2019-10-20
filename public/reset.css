@@ -13,7 +13,8 @@
   font-weight: normal;
   box-sizing: border-box;
   word-wrap: break-word;
-  text-decoration: none; }
+  text-decoration: none;
+  list-style: none; }
 
 :root { font-size: 18px }
 
