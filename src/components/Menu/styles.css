@@ -1,21 +1,24 @@
 .profile-photo {
-  height: 3rem;
-  width: 3rem;
+  height: 3.2rem;
+  width: 3.2rem;
   border-radius: 100%;
   margin-right: 8px; }
 
 .menu {
   min-height: 100vh;
-  width: 14rem;
+  width: 16rem;
   background-color: #111111; }
 
 .menu header {
-  padding: 1rem 0 2rem 0; }
+  padding: 1rem 0 3rem 0; }
 
 .menu > header > div {
   display: flex;
   align-items: center;
   padding: 0 .5rem; }
+
+.menu > header > div > h1 {
+  font-size: 1.2rem; }
 
 .menu > header > ul {
   display: flex;
