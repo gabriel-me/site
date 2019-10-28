@@ -35,7 +35,7 @@ p {
   font-family: 'Merriweather', serif; }
 
 main { 
-  min-height: 100vh;
+  margin-bottom: 8rem;
   text-align: center; }
 
 main section img {
