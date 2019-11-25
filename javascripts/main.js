@@ -2,8 +2,7 @@ const queryEndpoint = async endpoint => {
   try {
     let data = [];
     const response = await fetch(endpoint);
-    data = await response.text();
-    data = JSON.parse(data);
+    data = await response.json();
     return data;
   } catch (error) {
     console.log(error);
