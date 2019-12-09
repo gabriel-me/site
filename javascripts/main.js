@@ -12,7 +12,7 @@ function renderRepositories(repositories) {
       <a href='${repository.html_url}' target='_blank'>
         <div class='repository'>
           <h2>${repository.name}</h2>
-          <p>${repository.description}</p>
+          <p>${repository.description || ''}</p>
         </div>
       </a>`
   })
