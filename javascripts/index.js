@@ -30,4 +30,6 @@ async function handleGitHubRepositories(username) {
   }
 }
 
-handleGitHubRepositories('gabriel-me')
+alert('a')
+
+// handleGitHubRepositories('gabriel-me')
