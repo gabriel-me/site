@@ -1,0 +1,175 @@
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Default
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root { font-size: 18px }
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #f8f8f2;
+  list-style: none;
+  text-decoration: none; }
+
+body { 
+  width: 100%;
+  -webkit-font-smoothing: antialiased !important;
+  background-color: #282a36; }
+
+/* Generic class
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.text {
+  margin-top: .5rem;
+  line-height: 30px;
+  letter-spacing: .05rem;
+  font-size: 1.2rem;
+  font-weight: 400; }
+
+.button {
+  margin: .1rem;
+  padding: .4rem .8rem;
+  color: #44475a;
+  background-color: #50fa7b; }  
+  
+.container {
+  padding: 1rem calc(50% - 20rem);
+  width: 100%; }
+
+.container > h1 {
+  font-size: 3rem;
+  color: #bd93f9;
+  padding: 1rem 0;
+  text-align: center; }
+
+.social-icon {
+  height: 1.5rem;
+  width: 1.5rem; }
+
+/* Menu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 100%;
+  padding: 1rem;
+  background-color: #1d1e26;
+  box-shadow: 0 0 10px 1px #1d1e26;
+  z-index: 2; }
+
+.menu > a {
+  color: #8be9fd; }
+
+.menu > a > code {
+  font-size: 1.2rem; }
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  padding: calc(50% - 30rem); }
+
+main > h1 {
+  font-size: 5rem;
+  color: #50fa7b;
+  margin: 0 0 1rem 1rem; }
+
+main > p {
+  font-size: 2rem;
+  margin: 0 0 1rem 1rem; }
+
+main > a {
+  position: absolute;
+  left: calc(50% - 1.5rem);
+  bottom: 1rem;
+  text-align: center; }
+
+main > a > svg {
+  height: 3rem;
+  width: 3rem; }
+
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#about > p {
+  margin: 0 1rem; }
+
+#about > p > strong {
+  font-weight: 500;
+  border-bottom: 2px solid #50fa7b; }
+
+/* Repositories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.repository {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem; 
+  margin: 0 1rem 2rem 1rem;
+  border-bottom: 1px solid #44475a; }
+
+.repository > time {
+  color: #6272a4; }
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  text-align: center; }
+
+footer > a > svg {
+  margin: 0 .5rem; }
+
+footer > .text {
+  padding: 1rem 0 2rem 0;
+  font-size: 1rem;
+  color: #6272a4; }
+
+footer > .text > strong {
+  color: #6272a4;
+  font-weight: 500; }
+
+@media (max-width: 500px) {
+  /* Default
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  :root { font-size: 16px }
+
+  /* Menu
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .menu > a {
+    width: 100%;
+    text-align: center; }
+
+  .menu > nav {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center; }
+
+  /* Main
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  main {
+    padding: 1rem; }
+
+  main > h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%; }
+
+  main > p {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%; }
+  
+  /* Container
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .container {
+    padding: 1rem; }
+}
