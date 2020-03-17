@@ -1,13 +1,13 @@
 /* Fonts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 /* Default
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root { font-size: 18px }
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #f8f8f2;
   list-style: none;
   text-decoration: none; }
@@ -39,7 +39,7 @@ body {
 .container > h1 {
   font-size: 3rem;
   color: #bd93f9;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   text-align: center; }
 
 .social-icon {
@@ -77,16 +77,16 @@ main {
   align-items: flex-start;
   justify-content: center;
   min-height: 100vh;
-  padding: calc(50% - 30rem); }
+  padding: 0 calc(50% - 30rem); }
 
 main > h1 {
   font-size: 5rem;
   color: #50fa7b;
-  margin: 0 0 1rem 1rem; }
+  padding: 0 1rem 1rem 1rem; }
 
 main > p {
   font-size: 2rem;
-  margin: 0 0 1rem 1rem; }
+  padding: 0 1rem 1rem 1rem; }
 
 main > a {
   position: absolute;
@@ -155,9 +155,6 @@ footer > .text > strong {
 
   /* Main
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  main {
-    padding: 1rem; }
-
   main > h1 {
     font-size: 2.5rem;
     text-align: center;

@@ -16,15 +16,16 @@ function renderRepositories(repositories) {
   const containerRepositoriesReference = '#repositories div'
   let repositoriesList = ''
   
-  repositories.forEach(repository => {
+  repositories.forEach(repository => 
     repositoriesList += `
       <a href='${repository.html_url}' target='_blank'>
         <div class='repository'>
           <h2 class='text'>${repository.name}</h2>
           <time>${formatDate(repository.updated_at)}</time>
         </div>
-      </a>`
-  })
+      </a>
+    `
+  )
 
   render(containerRepositoriesReference, repositoriesList)
 }
