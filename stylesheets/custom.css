@@ -39,7 +39,7 @@ body {
 .container > h1 {
   font-size: 3rem;
   color: #bd93f9;
-  padding: 1.5rem 0;
+  padding: 5rem 0 2rem 0;
   text-align: center; }
 
 .social-icon {
@@ -169,4 +169,12 @@ footer > .text > strong {
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .container {
     padding: 1rem; }
+}
+
+@media (min-width: 2000px) {
+  /* Main
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  main {
+    align-items: center;
+    min-height: 50rem; }
 }
