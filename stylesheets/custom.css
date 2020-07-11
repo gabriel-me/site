@@ -99,15 +99,6 @@ main > a > svg {
   height: 3rem;
   width: 3rem; }
 
-/* About
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-#about > p {
-  margin: 0 1rem; }
-
-#about > p > strong {
-  font-weight: 500;
-  border-bottom: 2px solid #50fa7b; }
-
 /* Repositories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .repository {
